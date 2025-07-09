@@ -12,7 +12,8 @@ export const MusicProvider = ({ children }) => {
   const [showAll, setShowAll] = useState(false);
   const audioRef = useRef(null);
 
-const BASE_URL = "tilthost.duckdns.org:3000";
+const BASE_URL = "http://tiltmusic.duckdns.org:3000";
+
 
 
   useEffect(() => {
