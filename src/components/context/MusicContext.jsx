@@ -12,7 +12,7 @@ export const MusicProvider = ({ children }) => {
   const [showAll, setShowAll] = useState(false);
   const audioRef = useRef(null);
 
-  const BASE_URL = "http://localhost:3000";
+  const BASE_URL = "http://177.22.229.215:3000";
 
   useEffect(() => {
     fetch(`${BASE_URL}/api/musics`)
